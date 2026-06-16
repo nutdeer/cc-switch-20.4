@@ -1,0 +1,17 @@
+# cc-switch-source 是独立项目，有自己仓库
+cc-switch-source/
+
+# AppImage 构建中完整的系统库依赖（体积巨大）
+cc-switch-appimage-refactor/vendored-deps/
+
+# Flatpak 仓库对象（二进制对象，仅 build 需要时本地使用）
+cc-switch-flatpak-repo/
+
+# 解压的 deb 包
+CC-Switch-v3.16.2-extracted/
+cc-switch-3.9.0-3-deb-extracted/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.swp
